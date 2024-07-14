@@ -8,6 +8,6 @@ const {
 const { uploadProductImage } = require("../controllers/uploads.controller");
 
 router.route("/").post(createProduct).get(getAllProducts);
-router.route("/uploads  ").post(uploadProductImage);
+router.route("/uploads").post(uploadProductImage);
 
 module.exports = router;
